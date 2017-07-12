@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dashboard</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li>Dashboard</li>
+			<li>New</li>
+			<li>Log</li>
+		</ul>
+	</nav>
+	<main>
+		<section id='dashboard'>
+			<div>User name and date of last seizure</div>
+			<div>Circle Graph of seizure type</div>
+			<div>Bar graph of seizure frequency</div>
+		</section>
+
+		<section id='new'>
+			<form>
+				Date: <input type="" name=""><br>
+				Time: <input type="" name=""><br>
+				Type:
+				<select name="type">
+					<option value="aura">Aura</option>
+		 			<option value="absence">Absence</option>
+		  			<option value="atonic-">Atonic</option>
+		 			<option value="clonic">Clonic</option>
+		 			<option value="myoclonic">Myoclonic</option>
+		  			<option value="tonic">Tonic</option>
+		  			<option value="tonic-clonic">Tonic-Clonic</option>
+	  			</select>
+	  			<br>
+				Triggers: <input type="" name=""><br>
+				Location: <input type="" name=""><br>
+				Current Medication: <input type="" name=""><br>
+				Notes: <input type="" name=""><br>
+				<button>Save</button>
+			</form>
+		</section>
+
+		<section id='log'>
+			<div>List of seizure date and type that is clickable and expands to show further details of the event</div>
+		</section>
+	</main>
+</body>
+</html>
